@@ -11,4 +11,21 @@ package pacmanapp;
  */
 public class GameEngine {
     
+    public void loadMap(){
+        
+    }
+    
+    public void register(){
+        
+    }
+    
+    public void delete(){
+        
+    }
+    
+    public enum KEY{UP, DOWN, LEFT, RIGHT};
+    
+    public void handleKey(KEY key){
+        
+    }
 }

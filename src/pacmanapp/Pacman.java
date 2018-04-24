@@ -9,6 +9,24 @@ package pacmanapp;
  *
  * @author csc190
  */
-public class Pacman {
+public class Pacman implements Sprite{
+
+    public Pacman(int x, int y, int sx, int sy){
+        
+    }
+    
+    public void setDirection(int sx, int sy){
+        
+    }
+    
+    @Override
+    public void draw(API api) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public void update() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     
 }

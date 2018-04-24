@@ -10,5 +10,6 @@ package pacmanapp;
  * @author csc190
  */
 public interface Sprite {
-    
+    public void draw(API api);
+    public void update();
 }

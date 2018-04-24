@@ -11,4 +11,11 @@ package pacmanapp;
  */
 public class Timer {
     
+    public void start(){
+        
+    }
+    
+    public double stop(){
+        return 0.0; //for now
+    }
 }

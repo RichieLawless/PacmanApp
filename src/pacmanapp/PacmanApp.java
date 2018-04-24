@@ -17,7 +17,7 @@ import javafx.stage.Stage;
  *
  * @author csc190
  */
-public class PacmanApp extends Application {
+public class PacmanApp extends Application implements API{
     
     @Override
     public void start(Stage primaryStage) {
@@ -46,6 +46,16 @@ public class PacmanApp extends Application {
      */
     public static void main(String[] args) {
         launch(args);
+    }
+
+    @Override
+    public void drawImg(String filename, int x, int y, int w, int h) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public void clear() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     
 }
